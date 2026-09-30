@@ -1,0 +1,15 @@
+dd_forwarder_enabled = true
+
+dd_forwarder_subnet_ids = [
+  "subnet-REPLACE-1",
+  "subnet-REPLACE-2"
+]
+
+dd_forwarder_security_group_ids = [
+  "sg-REPLACE"
+]
+
+# Leave empty to use awslogs_group values automatically from datadog_tasks.
+dd_forwarder_log_groups = []
+
+dd_forwarder_layer_version = "114"
